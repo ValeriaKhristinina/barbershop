@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Barbershop</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container">
+      <a href="" class="logo"><img src="http://placehold.it/115x30" alt="" width="115" height="30" /></a>
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#"></a>Прайс-лист</li>
+          <li class="active"><a href="#"></a>Магазин</li>
+          <li><a href="#"></a>Контакты</li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <a href="" class="login">Вход</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="title">Средства для ухода</h1>
+    <div class="breadcrumbs">
+      <a href="#">Главная</a>
+      <a href="#">Магазин</a>
+      <a class="active" href="#">Средства для ухода</a>
+    </div>
+    <form class="product-filter">
+      <fieldset class="manufacturer">
+        <legend>Производители:</legend>
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" name="baxter-of-california" checked="">Baxter of California</label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="mr-natty">Mr Natty</label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="suavecito" checked="">Suavecito</label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="malin+goets">Malin+Goets</label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="murray's">Murray's</label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" name="american-crew" checked="">American Crew</label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="product groups">
+        <legend>Группы товаров:</legend>
+        <ul>
+          <li>
+            <label>
+              <input type="radio" name="products" value="shaving-accessories">Бритвенные принадлежности</label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="products" value="preparations-for-the-care" checked="">Средства для ухода</label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" name="products" value="accessories">Аксессуары</label>
+          </li>
+        </ul>
+      </fieldset>
+      <button type="button" name="show">Показать</button>
+    </form>
+
+    <section class="catalog">
+      <article class="product">
+        <img src="http://placehold.it/220x165" alt="Набор для путешествий
+          Baxter of California" width="220" height="165" />
+        <a class="product-title" href="#">Набор для путешествий<br>
+          "Baxter of California"</a>
+        <section class="buy">
+          <span class="price">2 900 руб.</span>
+          <a class="btn btn-buy" href="#">Купить</a>
+        </section>
+      </article>
+      <article class="product">
+        <img src="http://placehold.it/220x165" alt="Увлажняющий кондиционер
+          Baxter of California" width="220" height="165" />
+        <a class="product-title" href="#">Увлажняющий кондиционер<br>
+          "Baxter of California"</a>
+        <section class="buy">
+          <span class="price">750 руб.</span>
+          <a class="btn btn-buy" href="#">Купить</a>
+        </section>
+      </article>
+      <article class="product">
+        <img src="http://placehold.it/220x165" alt="Гель для волос
+          Suavecito" width="220" height="165" />
+        <a class="product-title" href="#">Гель для волос<br>
+          "Suavecito"</a>
+        <section class="buy">
+          <span class="price">290 руб.</span>
+          <a class="btn btn-buy" href="#">Купить</a>
+        </section>
+      </article>
+      <article class="product">
+        <img src="http://placehold.it/220x165" alt="Глина для укладки волос
+          American Crew" width="220" height="165" />
+        <a class="product-title" href="#">Глина для укладки волос<br>
+          "American Crew"</a>
+        <section class="buy">
+          <span class="price">500 руб.</span>
+          <a class="btn btn-buy" href="#">Купить</a>
+        </section>
+      </article>
+      <article class="product">
+        <img src="http://placehold.it/220x165" alt="Гель для волос
+          Suavecito" width="220" height="165" />
+        <a class="product-title" href="#">Гель для волос<br>
+          "Suavecito"</a>
+        <section class="buy">
+          <span class="price">300 руб. </span>
+          <a class="btn btn-buy" href="#">Купить</a>
+        </section>
+      </article>
+      <article class="product">
+        <img src="http://placehold.it/220x165" alt="Набор для бритья
+          Baxter of California" width="220" height="165" />
+        <a class="product-title" href="#">Набор для бритья<br>
+          "Baxter of California"</a>
+        <section class="buy">
+          <span class="price">3 900 руб.</span>
+          <a class="btn btn-buy" href="#">Купить</a>
+        </section>
+      </article>
+      <div class="pagination">
+        <ul>
+          <li><a href="">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">4</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <section class="footer-contacts">
+        <p>Барбершоп "Бородинский"<br>
+        Адрес.: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+          <a href="#">Как нас найти?</a>
+          Телефон: +7 (495) 666-02-66</p>
+      </section>
+      <section class="footer-social">
+        <span>Давайте дружить!</span>
+        <a class="social-btn social-btn-vk" href="#">Vk</a>
+        <a class="social-btn social-btn-fb" href="#">Fb</a>
+        <a class="social-btn social-btn-inst" href="#">Inst</a>
+      </section>
+      <section class="footer-copyright">
+        <span>Разработано:</span>
+        <a class="developed-by" href="#">htmlacademy</a>
+      </section>
+    </div>
+  </footer>
+
+</body>
+
+</html>
