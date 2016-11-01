@@ -21,8 +21,111 @@ body {
   font-weight: bold;
   color: #000000;
 }
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 h1{
   font-size: 30px;
   line-height: 42px;
+}
+
+.main-header{
+  margin-bottom: 60px;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.logo{
+  float: left;
+  width: 140px;
+}
+
+.main-navigation{
+  float: left;
+  width: 620px;
+  min-height: 70px;
+}
+
+.user-block{
+  float: right;
+  width: 140px;
+}
+.title{
+  margin-bottom: 30px;
+}
+
+.breadcrumbs{
+  width: 700px;
+  margin-bottom: 60px;
+}
+
+.gallery{
+  float: left;
+  width: 480px;
+}
+
+.product-description{
+  float: right;
+  width: 390px;
+}
+
+.product-filter{
+  float: left;
+  width: 220px;
+  margin-right: 10px;
+}
+
+.catalog{
+  float: right;
+  width: 700px;
+}
+
+.product{
+  display: inline-block;
+  width: 220px;
+  vertical-align: top;
+}
+
+.main-footer{
+  margin-top: 40px;
+  padding-top: 60px;
+  border: 2px solid red;
+}
+
+.footer-contacts{
+  float: left;
+  width: 320px;
+  margin: 0;
+  margin-right: 70px;
+}
+
+.footer-social{
+  float: left;
+  width: 170px;
+  margin-right: 230px;
+
+}
+
+.footer-copyright{
+  float: right;
+  width: 150px;
+}
+
+ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset{
+  border:none;
 }
