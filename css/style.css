@@ -41,7 +41,6 @@ h1{
   margin: 0 auto;
   padding: 0 10px;
   box-sizing: border-box;
-  border: 2px solid black;
 }
 
 .logo{
@@ -87,18 +86,19 @@ h1{
 .catalog{
   float: right;
   width: 700px;
+  font-size: 0;
 }
 
 .product{
   display: inline-block;
   width: 220px;
   vertical-align: top;
+  font-size: 14px;
 }
 
 .main-footer{
   margin-top: 40px;
   padding-top: 60px;
-  border: 2px solid red;
 }
 
 .footer-contacts{
