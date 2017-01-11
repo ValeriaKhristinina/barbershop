@@ -13,13 +13,14 @@
 }
 
 body {
-  font-family: "PT Sans Narrow";
+  font-family: "PT Sans Narrow" , "Arial" , sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: bold;
   text-transform: uppercase;
   color: #000000;
   background: url("../img/pictures/background.png");
+  background-color: #fbf8f5;
 }
 
 .clearfix::after {
@@ -92,13 +93,13 @@ fieldset {
   position: relative;
 }
 
-.main-navigation .active::before {
+.main-navigation .active::after {
   content: "";
   position: absolute;
   left: 20px;
   bottom: 0;
-  width: 56px;
-  height: 4px;
+  right: 20px;
+  height: 5px;
   background-color: #ffffff;
 }
 
@@ -135,7 +136,7 @@ fieldset {
   opacity: 1;
 }
 
-.login:hover {
+.login:hover, .login:active {
   background-color: #242424;
   color: #ffffff;
 }
@@ -170,8 +171,8 @@ fieldset {
   top: 7px;
   right: -24px;
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background-color: #000000;
   transform: rotate(45deg);
 }
@@ -480,6 +481,7 @@ label:hover {
   padding-bottom: 40px;
   color: #ffffff;
   background: url("../img/pictures/background-footer.png");
+  background-color:#000000; 
 }
 
 .footer-contacts {
